@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-gap: 50px;
+            background-color: #2196F3;
+            padding: 10px;
+            grid-template-columns: auto auto;
+        }
+        .item1 {
+            grid-column-start: 2;
+            grid-column-end: 5;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+        }
+        .item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div>
+            <p>Kesimpulan skenario 1 adalah: Properti "grid-column-start" menetapkan awal kolom tempat elemen tersebut akan ditempatkan, dalam hal ini dimulai dari kolom kedua,
+            sementara properti "grid-column-end" menetapkan akhir kolom tempat elemen tersebut akan ditempatkan, dalam hal ini di akhir kolom keempat.
+            Dengan demikian, elemen tersebut akan memanfaatkan kolom-kolom kedua hingga keempat dalam grid tersebut.</p>
+            <p>Kesimpulan skenario 2 adalah: mendefinisikan sebuah kontainer grid dengan dua kolom, di mana lebar setiap kolom akan disesuaikan dengan konten yang ada di dalamnya
+            (menggunakan nilai "auto" untuk grid-template-columns). </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wadah_flex {
+        /* Menjadi flexsibel dengan mengatur property display dengan nilai flex. */
+        display:flex;
+        /* Menambahkan warna background sesuai selera (contoh: biru) */
+        background-color: lightblue;
+        /* flex-flow digunakan untuk menggabungkan flex-direction dan flex-wrap */
+        flex-flow: wrap row;
+        justify-content: center;
+        }
+        .wadah_flex > div {
+        background-color: blue;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wadah_flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+        <p> Kesimpulan skenario 1 adalah: mendefinisikan sebuah kelas CSS bernama "wadah_flex".
+            Kode tersebut memberikan elemen yang menggunakan kelas ini kemampuan untuk menjadi fleksibel dengan mengatur properti display menjadi flex.
+            Selain itu, kode juga menetapkan warna latar belakang (background) dari elemen yang menggunakan kelas ini menjadi lightblue. </p>
+        <p> Kesimpulan skenario 2 adalah: bahwa semua elemen div akan memiliki latar belakang biru,
+            memiliki jarak 10 piksel di sekelilingnya, memiliki ruang dalam sebesar 20 piksel,
+            dan ukuran teks sebesar 30 piksel.</p>
+        <p> Kesimpulan skenario 3 adalah: Dengan menambahkan properti "flex-direction: column;",
+            elemen dalam class "wadah-flex" akan diatur secara vertikal daripada horizontal.
+            Ini mengubah tata letak elemen-elemen tersebut menjadi satu kolom, berbeda dengan tata letak default "flex-direction: row;". </p>
+        <p> Kesimpulan skenario 4 adalah: "flex-wrap: wrap" pada class 'wadah-flex'  Ini memungkinkan penataan yang lebih fleksibel dan responsif
+            dari elemen-elemen tersebut, terutama ketika ukuran layar atau konten berubah.</p>
+        <p> Kesimpulan skenario 5 aalah:  untuk mengatur flex container agar item-item flex mengalir dalam baris horizontal
+            dan akan dibungkus ke baris baru saat mencapai batas "wadah_flex".</p>
+        <p> Kesimpulan skenario 6 adalah: Dengan menggunakan justify-content: center;, elemen-elemen dalam "wadah_flex" akan diletakkan dengan jarak yang sama di antara mereka,
+            dengan elemen-elemen tersebut ditempatkan di tengah secara horizontal.</p>
+</body>
+</html>

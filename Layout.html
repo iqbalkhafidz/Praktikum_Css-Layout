@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        .grid {
+            display: grid;
+            background-color: #2196F3;
+            padding: 12px;
+            text-align: center;
+            gap: 10px;
+            border: 1px solid green;
+
+        }
+        .header {
+            background-color: rgba(255, 255, 255, 0.8);
+            grid-column: 1/7;
+            padding: 20px;   
+        }
+        .Menu {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            grid-row: 2/4;
+        }
+        .main {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            grid-column: 2/5;
+        }
+        .Right {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            grid-template-columns: auto;
+            grid-column: 5/7;
+        }
+        .footer {
+            grid-column: 2/7;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="header">Header</div>
+        <div class="menu">Menu</div>
+        <div class="Main">Main</div>
+        <div class="Right">Right</div>
+        <div class="Footer">Footer</div>
+    </div>
+</body>
+</html>
